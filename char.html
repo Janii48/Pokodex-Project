@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+  <title>Bootstrap példa</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+
+  <style type="text/css">
+    .row {
+      border: 1px solid lightgray;
+      padding: 10px
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container-fluid">
+
+
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+      <a class="navbar-brand" href="index.html">Project feladat</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="butt.html">Butterfree</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="char.html">Charizard</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="bull.html">Bulbasaur</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              Eredeit lista
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="https://pokemondb.net/pokedex/butterfree" target="_blank">Butterfree</a>
+              <a class="dropdown-item" href="https://pokemondb.net/pokedex/charizard" target="_blank">Charizard</a>
+              <a class="dropdown-item" href="https://pokemondb.net/pokedex/bulbasaur" target="_blank">Bulbasaur</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div class="container-fluid tartalom">
+    <center><img src="charizard.jpg" alt="char"></center>
+    <div class="table-responsive-sm">
+      <table class="table">
+        <tr>
+          <th>Statisztikák:</th>
+          <td>HP</td>
+          <td>Attack</td>
+          <td>Defense</td>
+          <td>Sp.Atk</td>
+          <td>Sp.Def</td>
+          <td>Speed</td>
+          <td>Total</td>
+        </tr>
+        <tr>
+          <th>Értékek:</th>
+          <td>78</td>
+          <td>84</td>
+          <td>78</td>
+          <td>109</td>
+          <td>85</td>
+          <td>100</td>
+          <td>534</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</body>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-2"><img src="0ch.png" alt=""></div>
+    <div class="col-3">
+      <center><img src="16lvl.png" alt=""></center>
+    </div>
+    <div class="col-2"><img src="16ch.png" alt=""></div>
+    <div class="col-3">
+      <center><img src="32lvl.png" alt=""></center>
+    </div>
+    <div class="col-2"><img src="32ch.png" alt=""></div>
+  </div>
+</div>
+
+</body>
+
+</html>
